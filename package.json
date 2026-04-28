@@ -1,0 +1,28 @@
+{
+  "name": "ai-pw-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "playwright test --project=api-test",
+    "test:api:report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "@apidevtools/json-schema-ref-parser": "^14.0.2",
+    "@faker-js/faker": "^7.6.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "dotenv": "^16.6.1",
+    "openapi-types": "^12.1.3",
+    "pg": "^8.16.3"
+  },
+  "dependencies": {
+    "@playwright/cli": "^0.1.9",
+    "@playwright/mcp": "^0.0.70"
+  }
+}
