@@ -18,7 +18,6 @@ npx playwright install
 
 ```bash
 npm run test:api          # run all API tests
-npm run test:api:ui       # run with Playwright UI
 npm run test:api:report   # open HTML report
 ```
 
